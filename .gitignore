@@ -1,0 +1,22 @@
+# Root level
+node_modules/
+.env
+.DS_Store
+
+# Frontend specific
+frontend/.expo/
+frontend/dist/
+frontend/npm-debug.*
+frontend/*.jks
+frontend/*.p8
+frontend/*.p12
+frontend/*.key
+frontend/*.mobileprovision
+frontend/*.orig.*
+frontend/web-build/
+
+# Backend specific
+backend/node_modules/
+backend/dist/
+backend/build/
+backend/.env
